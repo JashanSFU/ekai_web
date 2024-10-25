@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ekai_web/static/css/main.5aeeee04.css",
+    "main.js": "/ekai_web/static/js/main.55a16501.js",
+    "static/js/453.ed3810f9.chunk.js": "/ekai_web/static/js/453.ed3810f9.chunk.js",
+    "static/media/circle1.png": "/ekai_web/static/media/circle1.b5331433dfc45040c4a1.png",
+    "static/media/profile.jpg": "/ekai_web/static/media/profile.a6cad0c75d8a263a9be3.jpg",
+    "index.html": "/ekai_web/index.html",
+    "main.5aeeee04.css.map": "/ekai_web/static/css/main.5aeeee04.css.map",
+    "main.55a16501.js.map": "/ekai_web/static/js/main.55a16501.js.map",
+    "453.ed3810f9.chunk.js.map": "/ekai_web/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5aeeee04.css",
+    "static/js/main.55a16501.js"
+  ]
+}
