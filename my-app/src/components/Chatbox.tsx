@@ -1,11 +1,11 @@
 import React from 'react';
-import { Box, Typography, Button, InputBase, IconButton } from '@mui/material';
+import { Box, Typography, IconButton } from '@mui/material';
 import { SocialIcon } from 'react-social-icons';
 import '../styles/Chatbox.css';
-import SendIcon from '@mui/icons-material/Send';
 import CloseIcon from '@mui/icons-material/Close'; // Import the cross icon
 import { useNavigate } from 'react-router-dom';
 import ChatInputBox from './ChatInputBox';
+
 const ChatPage: React.FC = () => {
   const navigate = useNavigate(); // Hook for navigation
 
@@ -61,26 +61,6 @@ const ChatPage: React.FC = () => {
       <Box className="chat-input-section">
         <Box className="prompt">Jashanraj's Ekai is typing...</Box>
         <ChatInputBox></ChatInputBox>
-        {/* <Box className="chat-input-box">
-          <Typography className="prompt-text">Ask me anything</Typography>
-          <InputBase
-            placeholder="how can Ekai help me?"
-            className="chat-input"
-            sx={{
-              borderRadius: '20px',
-              backgroundColor: '#f9f9f9',
-              padding: '10px 15px',
-              fontSize: '16px',
-              flex: 1,
-            }}
-          />
-          <Button className="send-button">
-            <SendIcon style={{ color: '#F8C08E' }} />
-          </Button>
-          <Button variant="contained" className="build-ekai-button">
-            Build my own Ekai
-          </Button>
-        </Box> */}
       </Box>
 
       {/* Footer */}

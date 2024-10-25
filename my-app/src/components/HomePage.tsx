@@ -1,63 +1,10 @@
-// import React, { useState } from 'react';
-// import { Box, Typography, Avatar, Button, IconButton } from '@mui/material';
-// import { LinkedIn, Instagram, Language } from '@mui/icons-material';
-// import '../styles/HomePage.css';
-// import '../styles/common.css';
-// import Chatbox from './Chatbox';
-
-// const HomePage: React.FC = () => {
-//   const [showChat, setShowChat] = useState<boolean>(false);
-//   return (
-//     <Box className="homepage-container">
-//       <Box className="text-section">
-//         <Typography variant="h2" className="greeting">
-//           Hey, I'm <span className="highlight">Ash</span>
-//         </Typography>
-//         <Typography variant="h5" className="description">
-//           I'm a seasoned technology operator & entrepreneur currently building <span className="highlight">Ekai</span> to help teams focus on what truly matters.
-//         </Typography>
-//         <Box className="action-buttons">
-//           <Button variant="contained" color="primary" className="cta-button">
-//             Ask me anything
-//           </Button>
-//           <Button variant="outlined" className="cta-button">
-//             Build my own Ekai
-//           </Button>
-//         </Box>
-//       </Box>
-//       <Box className="avatar-section">
-//         <Avatar 
-//           src="https://via.placeholder.com/150" 
-//           alt="Ash" 
-//           className="avatar"
-//         />
-//       </Box>
-//       <Box className="social-icons">
-//         <IconButton color="inherit">
-//           <LinkedIn />
-//         </IconButton>
-//         <IconButton color="inherit">
-//           <Instagram />
-//         </IconButton>
-//         <IconButton color="inherit">
-//           <Language />
-//         </IconButton>
-//       </Box>
-//       {showChat && <Chatbox onClose={() => setShowChat(false)} />}
-//     </Box>
-//   );
-// }
-
-// export default HomePage;
-import React, { useState } from 'react';
+import React from 'react';
 import { Box, Typography } from '@mui/material';
 import '../styles/HomePage.css';
 import { SocialIcon } from 'react-social-icons';
 import ChatInputBox from './ChatInputBox';
 
 const HomePage: React.FC = () => {
-  const [showChatbox, setShowChatbox] = useState(false);
-
   return (
     <Box className="display">
       <Box className="homepage">
